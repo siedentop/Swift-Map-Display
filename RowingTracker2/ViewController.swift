@@ -10,7 +10,7 @@
     import MapKit
     import CoreLocation
 
-    class ViewController: UIViewController, MKMapViewDelegate {
+    class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         @IBOutlet var mapview: MKMapView = nil
         var locationmgr : CLLocationManager!
                                 
@@ -18,6 +18,7 @@
             super.viewDidLoad()
             // Do any additional setup after loading the view, typically from a nib.
             locationmgr = CLLocationManager()
+            locationmgr.delegate = self
             locationmgr.requestWhenInUseAuthorization()
             mapview.showsUserLocation = true
         }
