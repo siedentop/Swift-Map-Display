@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83FDBB141961ED9A00C9A0D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB131961ED9A00C9A0D2 /* AppDelegate.swift */; };
+		83FDBB171961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB151961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld */; };
+		83FDBB191961ED9A00C9A0D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB181961ED9A00C9A0D2 /* ViewController.swift */; };
+		83FDBB1C1961ED9A00C9A0D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FDBB1A1961ED9A00C9A0D2 /* Main.storyboard */; };
+		83FDBB1E1961ED9A00C9A0D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FDBB1D1961ED9A00C9A0D2 /* Images.xcassets */; };
+		83FDBB2A1961ED9A00C9A0D2 /* RowingTracker2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB291961ED9A00C9A0D2 /* RowingTracker2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83FDBB241961ED9A00C9A0D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83FDBB061961ED9900C9A0D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83FDBB0D1961ED9900C9A0D2;
+			remoteInfo = RowingTracker2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83FDBB0E1961ED9900C9A0D2 /* RowingTracker2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RowingTracker2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FDBB121961ED9A00C9A0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FDBB131961ED9A00C9A0D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83FDBB161961ED9A00C9A0D2 /* RowingTracker2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RowingTracker2.xcdatamodel; sourceTree = "<group>"; };
+		83FDBB181961ED9A00C9A0D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83FDBB1B1961ED9A00C9A0D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83FDBB1D1961ED9A00C9A0D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83FDBB231961ED9A00C9A0D2 /* RowingTracker2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RowingTracker2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FDBB281961ED9A00C9A0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FDBB291961ED9A00C9A0D2 /* RowingTracker2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowingTracker2Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83FDBB0B1961ED9900C9A0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FDBB201961ED9A00C9A0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83FDBB051961ED9900C9A0D2 = {
+			isa = PBXGroup;
+			children = (
+				83FDBB101961ED9900C9A0D2 /* RowingTracker2 */,
+				83FDBB261961ED9A00C9A0D2 /* RowingTracker2Tests */,
+				83FDBB0F1961ED9900C9A0D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83FDBB0F1961ED9900C9A0D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83FDBB0E1961ED9900C9A0D2 /* RowingTracker2.app */,
+				83FDBB231961ED9A00C9A0D2 /* RowingTracker2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83FDBB101961ED9900C9A0D2 /* RowingTracker2 */ = {
+			isa = PBXGroup;
+			children = (
+				83FDBB131961ED9A00C9A0D2 /* AppDelegate.swift */,
+				83FDBB181961ED9A00C9A0D2 /* ViewController.swift */,
+				83FDBB1A1961ED9A00C9A0D2 /* Main.storyboard */,
+				83FDBB1D1961ED9A00C9A0D2 /* Images.xcassets */,
+				83FDBB151961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld */,
+				83FDBB111961ED9900C9A0D2 /* Supporting Files */,
+			);
+			path = RowingTracker2;
+			sourceTree = "<group>";
+		};
+		83FDBB111961ED9900C9A0D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83FDBB121961ED9A00C9A0D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83FDBB261961ED9A00C9A0D2 /* RowingTracker2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				83FDBB291961ED9A00C9A0D2 /* RowingTracker2Tests.swift */,
+				83FDBB271961ED9A00C9A0D2 /* Supporting Files */,
+			);
+			path = RowingTracker2Tests;
+			sourceTree = "<group>";
+		};
+		83FDBB271961ED9A00C9A0D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83FDBB281961ED9A00C9A0D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83FDBB0D1961ED9900C9A0D2 /* RowingTracker2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FDBB2D1961ED9A00C9A0D2 /* Build configuration list for PBXNativeTarget "RowingTracker2" */;
+			buildPhases = (
+				83FDBB0A1961ED9900C9A0D2 /* Sources */,
+				83FDBB0B1961ED9900C9A0D2 /* Frameworks */,
+				83FDBB0C1961ED9900C9A0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RowingTracker2;
+			productName = RowingTracker2;
+			productReference = 83FDBB0E1961ED9900C9A0D2 /* RowingTracker2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83FDBB221961ED9A00C9A0D2 /* RowingTracker2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FDBB301961ED9A00C9A0D2 /* Build configuration list for PBXNativeTarget "RowingTracker2Tests" */;
+			buildPhases = (
+				83FDBB1F1961ED9A00C9A0D2 /* Sources */,
+				83FDBB201961ED9A00C9A0D2 /* Frameworks */,
+				83FDBB211961ED9A00C9A0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83FDBB251961ED9A00C9A0D2 /* PBXTargetDependency */,
+			);
+			name = RowingTracker2Tests;
+			productName = RowingTracker2Tests;
+			productReference = 83FDBB231961ED9A00C9A0D2 /* RowingTracker2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83FDBB061961ED9900C9A0D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Christoph Siedentop";
+				TargetAttributes = {
+					83FDBB0D1961ED9900C9A0D2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					83FDBB221961ED9A00C9A0D2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 83FDBB0D1961ED9900C9A0D2;
+					};
+				};
+			};
+			buildConfigurationList = 83FDBB091961ED9900C9A0D2 /* Build configuration list for PBXProject "RowingTracker2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83FDBB051961ED9900C9A0D2;
+			productRefGroup = 83FDBB0F1961ED9900C9A0D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83FDBB0D1961ED9900C9A0D2 /* RowingTracker2 */,
+				83FDBB221961ED9A00C9A0D2 /* RowingTracker2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83FDBB0C1961ED9900C9A0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FDBB1C1961ED9A00C9A0D2 /* Main.storyboard in Resources */,
+				83FDBB1E1961ED9A00C9A0D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FDBB211961ED9A00C9A0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83FDBB0A1961ED9900C9A0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FDBB191961ED9A00C9A0D2 /* ViewController.swift in Sources */,
+				83FDBB141961ED9A00C9A0D2 /* AppDelegate.swift in Sources */,
+				83FDBB171961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FDBB1F1961ED9A00C9A0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FDBB2A1961ED9A00C9A0D2 /* RowingTracker2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83FDBB251961ED9A00C9A0D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83FDBB0D1961ED9900C9A0D2 /* RowingTracker2 */;
+			targetProxy = 83FDBB241961ED9A00C9A0D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83FDBB1A1961ED9A00C9A0D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83FDBB1B1961ED9A00C9A0D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83FDBB2B1961ED9A00C9A0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83FDBB2C1961ED9A00C9A0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83FDBB2E1961ED9A00C9A0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RowingTracker2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83FDBB2F1961ED9A00C9A0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RowingTracker2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83FDBB311961ED9A00C9A0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RowingTracker2.app/RowingTracker2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RowingTracker2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		83FDBB321961ED9A00C9A0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RowingTracker2.app/RowingTracker2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RowingTracker2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83FDBB091961ED9900C9A0D2 /* Build configuration list for PBXProject "RowingTracker2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FDBB2B1961ED9A00C9A0D2 /* Debug */,
+				83FDBB2C1961ED9A00C9A0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83FDBB2D1961ED9A00C9A0D2 /* Build configuration list for PBXNativeTarget "RowingTracker2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FDBB2E1961ED9A00C9A0D2 /* Debug */,
+				83FDBB2F1961ED9A00C9A0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83FDBB301961ED9A00C9A0D2 /* Build configuration list for PBXNativeTarget "RowingTracker2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FDBB311961ED9A00C9A0D2 /* Debug */,
+				83FDBB321961ED9A00C9A0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83FDBB151961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83FDBB161961ED9A00C9A0D2 /* RowingTracker2.xcdatamodel */,
+			);
+			currentVersion = 83FDBB161961ED9A00C9A0D2 /* RowingTracker2.xcdatamodel */;
+			path = RowingTracker2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 83FDBB061961ED9900C9A0D2 /* Project object */;
+}
