@@ -20,6 +20,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         location = CLLocationManager()
         location.delegate = self
         location.requestAlwaysAuthorization()
+        location.startUpdatingLocation()
+        mapview.showsUserLocation = true
     }
 
     override func didReceiveMemoryWarning() {
