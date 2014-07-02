@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		83FDBB141961ED9A00C9A0D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB131961ED9A00C9A0D2 /* AppDelegate.swift */; };
 		83FDBB171961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB151961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld */; };
-		83FDBB191961ED9A00C9A0D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB181961ED9A00C9A0D2 /* ViewController.swift */; };
+		83FDBB191961ED9A00C9A0D2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB181961ED9A00C9A0D2 /* MapViewController.swift */; };
 		83FDBB1C1961ED9A00C9A0D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FDBB1A1961ED9A00C9A0D2 /* Main.storyboard */; };
 		83FDBB1E1961ED9A00C9A0D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FDBB1D1961ED9A00C9A0D2 /* Images.xcassets */; };
 		83FDBB2A1961ED9A00C9A0D2 /* RowingTracker2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB291961ED9A00C9A0D2 /* RowingTracker2Tests.swift */; };
@@ -30,7 +30,7 @@
 		83FDBB121961ED9A00C9A0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83FDBB131961ED9A00C9A0D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83FDBB161961ED9A00C9A0D2 /* RowingTracker2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RowingTracker2.xcdatamodel; sourceTree = "<group>"; };
-		83FDBB181961ED9A00C9A0D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83FDBB181961ED9A00C9A0D2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		83FDBB1B1961ED9A00C9A0D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83FDBB1D1961ED9A00C9A0D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83FDBB231961ED9A00C9A0D2 /* RowingTracker2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RowingTracker2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				83FDBB131961ED9A00C9A0D2 /* AppDelegate.swift */,
-				83FDBB181961ED9A00C9A0D2 /* ViewController.swift */,
+				83FDBB181961ED9A00C9A0D2 /* MapViewController.swift */,
 				83FDBB1A1961ED9A00C9A0D2 /* Main.storyboard */,
 				83FDBB1D1961ED9A00C9A0D2 /* Images.xcassets */,
 				83FDBB151961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld */,
@@ -211,7 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83FDBB191961ED9A00C9A0D2 /* ViewController.swift in Sources */,
+				83FDBB191961ED9A00C9A0D2 /* MapViewController.swift in Sources */,
 				83FDBB141961ED9A00C9A0D2 /* AppDelegate.swift in Sources */,
 				83FDBB171961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld in Sources */,
 			);
@@ -403,6 +403,7 @@
 				83FDBB2F1961ED9A00C9A0D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83FDBB301961ED9A00C9A0D2 /* Build configuration list for PBXNativeTarget "RowingTracker2Tests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +412,7 @@
 				83FDBB321961ED9A00C9A0D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
