@@ -19,9 +19,11 @@
             // Do any additional setup after loading the view, typically from a nib.
             locationmgr = CLLocationManager()
             locationmgr.delegate = self
-            locationmgr.requestWhenInUseAuthorization()
-            mapview.showsUserLocation = true
+            locationmgr.requestWhenInUseAuthorization() ///< Offending line.
+//            mapview.showsUserLocation = true
         }
+        
+//        override func didDetermineState
 
         override func didReceiveMemoryWarning() {
             super.didReceiveMemoryWarning()
@@ -29,3 +31,4 @@
         }
     }
 
+    
