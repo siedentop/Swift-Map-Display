@@ -22,6 +22,7 @@
 //            TODO: only available in iOS8. Check for iOS8.
 //            locationmgr.requestWhenInUseAuthorization()
             mapview.showsUserLocation = true
+            mapview.delegate = self
         }
         
 //        override func didDetermineState
