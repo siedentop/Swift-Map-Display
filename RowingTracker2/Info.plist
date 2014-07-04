@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationAlwaysUseUsageDescription</key>
+	<string>Rowing Tracker needs to know how far and how fast you are rowing.(Always)</string>
 	<key>NSLocationUsageDescription</key>
-	<string>Hello world.</string>
+	<string>Rowing Tracker needs to know how far and how fast you are rowing.(PV)</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Hello. hello.</string>
+	<string>Rowing Tracker needs to know how far and how fast you are rowing.(Use)</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

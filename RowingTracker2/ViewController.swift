@@ -19,8 +19,9 @@
             // Do any additional setup after loading the view, typically from a nib.
             locationmgr = CLLocationManager()
             locationmgr.delegate = self
-            locationmgr.requestWhenInUseAuthorization() ///< Offending line.
-//            mapview.showsUserLocation = true
+//            TODO: only available in iOS8. Check for iOS8.
+//            locationmgr.requestWhenInUseAuthorization()
+            mapview.showsUserLocation = true
         }
         
 //        override func didDetermineState

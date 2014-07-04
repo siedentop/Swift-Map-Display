@@ -418,6 +418,7 @@
 				83FDBB2F1961ED9A00C9A0D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83FDBB301961ED9A00C9A0D2 /* Build configuration list for PBXNativeTarget "RowingTracker2Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				83FDBB321961ED9A00C9A0D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
