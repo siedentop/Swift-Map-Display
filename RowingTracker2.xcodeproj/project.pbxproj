@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83362FE9196685E3004CF8D1 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83362FE8196685E3004CF8D1 /* Tracker.swift */; };
 		83FDBB141961ED9A00C9A0D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB131961ED9A00C9A0D2 /* AppDelegate.swift */; };
 		83FDBB171961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB151961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld */; };
 		83FDBB191961ED9A00C9A0D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBB181961ED9A00C9A0D2 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83362FE8196685E3004CF8D1 /* Tracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
 		83FDBB0E1961ED9900C9A0D2 /* RowingTracker2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RowingTracker2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FDBB121961ED9A00C9A0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83FDBB131961ED9A00C9A0D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				83FDBB1D1961ED9A00C9A0D2 /* Images.xcassets */,
 				83FDBB151961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld */,
 				83FDBB111961ED9900C9A0D2 /* Supporting Files */,
+				83362FE8196685E3004CF8D1 /* Tracker.swift */,
 			);
 			path = RowingTracker2;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83362FE9196685E3004CF8D1 /* Tracker.swift in Sources */,
 				83FDBB191961ED9A00C9A0D2 /* ViewController.swift in Sources */,
 				83FDBB141961ED9A00C9A0D2 /* AppDelegate.swift in Sources */,
 				83FDBB171961ED9A00C9A0D2 /* RowingTracker2.xcdatamodeld in Sources */,
